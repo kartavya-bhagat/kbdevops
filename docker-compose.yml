@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+ myapp1:
+  build: .
+  image: kbeyapp:v1
+  container_name: kbey1
+  ports:
+   - "4609:80" 
